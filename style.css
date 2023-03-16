@@ -208,15 +208,12 @@ a:hover {
   transition: all 1s;
 }
 @media screen and (max-width: 1000px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-  }
+  html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  
   .over-all-container {
     /* background-image: url(./images/corner-rose-image.png); */
     background-size: 40%;
@@ -254,6 +251,11 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
   body {
     margin: 0;
   }
