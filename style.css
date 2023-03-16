@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* margin: 0 auto; */
+  background: rgb(34, 193, 195);
+  background: radial-gradient(
+    circle,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(87, 237, 214, 0.31535942013524154) 0%,
+    rgba(15, 137, 138, 0.4610176834405637) 0%,
+    rgba(53, 242, 226, 1) 0%,
+    rgba(45, 253, 253, 0.4862277674741772) 0%,
+    rgba(188, 254, 255, 0.649) 51%
+  );
+  /* z-index: -4; */
+  /* width: 100%; */
+  /* margin: 0 auto; */
+}
+
+h1,
+h2 {
+  /* font-family: "Edu NSW ACT Foundation", cursive; */
+}
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 50px;
+}
+.hi-para {
+  font-size: 4rem;
+  font-weight: bold;
+  opacity: 1;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.para-2 {
+  margin-bottom: 250px;
+}
+.over-all-container {
+  width: 90%;
+  margin: 50px auto;
+  background-image: url(./images/corner-rose-image.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 400px;
+}
+header {
+  /* margin-bottom: 150pxz; */
+}
+.container-1 {
+  width: 70%;
+  margin: 50px 30% 200px 0px;
+}
+p {
+  font-size: 18px;
+  opacity: 0.8;
+  line-height: 25px;
+  word-spacing: 10px;
+}
+.container-2 {
+  background-image: url(./images/bg-black-rose-img.jpeg);
+
+  background-repeat: no-repeat;
+
+  /* z-index:/ -1; */
+  background-size: cover;
+
+  background-position: center;
+
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+
+  min-width: 400px;
+  /* max-width: 1200px; */
+  margin: 5px auto;
+  border-radius: 15px;
+}
+img {
+  text-align: center;
+  width: 400px;
+
+  height: 650px;
+  /* padding-bottom: 50px; */
+  padding: 50px;
+  margin: 5px auto;
+  /* margin: 60px 0px; */
+
+  /* float: ; */
+  /* display: flex;
+  align-items: flex-end; */
+  /* margin-bottom: 60px; */
+  /* z-index: ; */
+}
+.cell-1 {
+  width: calc(80vw-50%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 0;
+}
+.cell-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 128, 66);
+
+  height: 500px;
+  width: 400px;
+  /* margin-right: 100px; */
+  border-radius: 15px;
+  margin-top: 100px;
+  padding: 20px;
+  color: white;
+  margin-right: 20px;
+  /* z-index: 3; */
+}
+h2 {
+  margin: 25px 0;
+}
+.cell-2 > p {
+  margin: 20px auto;
+}
+span {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.dolor {
+  font-size: 40px;
+  font-weight: bold;
+}
+.button-1 {
+  background-color: crimson;
+  color: aliceblue;
+  width: 230px;
+  padding: 10px 30px;
+  margin: 5px auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-size: ;
+  font-weight: bold;
+}
+.button-2 {
+  background-color: aliceblue;
+  color: crimson;
+  width: 230px;
+  padding: 10px 30px;
+  margin: 20px auto;
+  border: 1px solid aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  font-size: ;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+button > i {
+  font-size: 25px;
+  padding-right: 5px;
+}
+button:hover {
+  color: white;
+  background-color: black;
+  transition: all 2s;
+}
+
+.bottom-footer {
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-1 {
+  /* margin-right: 30px; */
+}
+.footer-2 {
+  max-width: 500px;
+}
+.footer-3 {
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+span > i {
+  /* display: inline-block; */
+  /* flex-direction: row; */
+  font-size: 30px;
+  /* height: 50px;
+  width: 50px; */
+  margin-right: 20px;
+}
+.footer > a {
+  text-decoration: none;
+  color: black;
+}
+.footer > span,
+a:hover {
+  color: crimson;
+  transition: all 1s;
+}
+@media screen and (max-width: 1000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .over-all-container {
+    /* background-image: url(./images/corner-rose-image.png); */
+    background-size: 40%;
+    max-width: 90vw;
+    position: static;
+
+    right: 0;
+    top: 0;
+  }
+  .container-2 {
+  }
+  .cell-1 {
+  }
+  img {
+    position: relative;
+    left: 100px;
+
+    /* justify-self: unset; */
+  }
+  .cell-2 {
+    position: sticky;
+    right: 100px;
+    min-width: 400px;
+    height: 500px;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  .bottom-footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-2 {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  .over-all-container {
+    background-image: none;
+  }
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 350px;
+    min-width: 200px;
+  }
+  img {
+    margin: 0;
+    padding: 1px auto;
+    position: static;
+  }
+  .cell-2 {
+    position: static;
+    margin: 0;
+    padding: 0 20px;
+    width: 90vw;
+    min-width: 200px;
+  }
+
+  .bottom-footer {
+    margin-top: 400px;
+  }
+  .footer-1 {
+    margin-bottom: 30px;
+  }
+
+  .footer-2 {
+    order: 0;
+  }
+  .footer-3 {
+    display: flex;
+    margin-top: 60px;
+    justify-content: flex-start;
+  }
+}
